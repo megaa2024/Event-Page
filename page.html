@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fredoka:wght@300..700&family=Lugrasimo&display=swap" rel="stylesheet">
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body class="font-Fredoka text-white" style="background-color: #08123B;">
+    <div class="flex flex-wrap justify-center py-8 px-4">
+        <div class="w-full md:w-5/12 p-4 transition duration-500 ease-in-out transform hover:scale-105">
+            <img src="Asset/brochure.jpeg" class="rounded-lg w-full h-64 sm:h-80 md:h-96 object-cover shadow-lg" alt="Event Brochure">
+        </div>
+        <div class="w-full md:w-6/12 p-4 mt-6 md:mt-0 text-center md:text-left">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold font-Fredoka pulse bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Code Crack</h1>
+            <h2 class="text-2xl sm:text-3xl mt-4 font-Fredoka">Debugging</h2>
+            <p class="text-md sm:text-lg mt-6 leading-relaxed font-Fredoka">
+                This event is for coding enthusiasts who thrive on solving intricate issues in code. Participants will face a variety of buggy programs, each riddled with errors that need to be detected and fixed within a set time. Points are awarded for each successfully debugged program, with speed and accuracy determining the winner. Bring your A-game and debugging tools for a competition that requires sharp thinking and problem-solving skills.
+            </p>
+        </div>
+    </div>
+
+    <div class="my-16 text-center px-4">
+        <h3 class="text-3xl sm:text-4xl font-bold font-Lugrasimo mb-12 pulse bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">Meet the Coordinators</h3>
+        <div class="flex flex-wrap justify-center">
+            <div class="w-40 sm:w-48 lg:w-52 p-5 mx-3 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+                <img src="Asset/p2.jpg" class="rounded-full border-2 border-white w-24 sm:w-28 lg:w-32 h-24 sm:h-28 lg:h-32 mx-auto transition-all duration-300 ease-in-out hover:border-current" alt="Coordinator 1">
+                <p class="mt-4 text-center text-lg sm:text-xl font-semibold font-Fredoka">Kanagasundari.S</p>
+                <p class="text-center text-sm font-Fredoka">7305716958</p>
+            </div>
+            <div class="w-40 sm:w-48 lg:w-52 p-5 mx-3 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+                <img src="Asset/p3.jpg" class="rounded-full border-2 border-white w-24 sm:w-28 lg:w-32 h-24 sm:h-28 lg:h-32 mx-auto transition-all duration-300 ease-in-out hover:border-current" alt="Coordinator 2">
+                <p class="mt-4 text-center text-lg sm:text-xl font-semibold font-Fredoka">Kaveeya Dharshni.D</p>
+                <p class="text-center text-sm font-Fredoka">9566003770</p>
+            </div>
+            <div class="w-40 sm:w-48 lg:w-52 p-5 mx-3 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">
+                <img src="Asset/pp2.jpg" class="rounded-full border-2 border-white w-24 sm:w-28 lg:w-32 h-24 sm:h-28 lg:h-32 mx-auto transition-all duration-300 ease-in-out hover:border-current" alt="Coordinator 3">
+                <p class="mt-4 text-center text-lg sm:text-xl font-semibold font-Fredoka">Janani.K</p>
+                <p class="text-center text-sm font-Fredoka">6379420842</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
